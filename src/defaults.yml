@@ -1,0 +1,17 @@
+from: markdown
+to: latex
+template: "latex/default.latex"
+columns: 100
+standalone: true
+filters: 
+  - pandoc-include
+  - pandoc-mustache
+metadata:
+  mustache: mustache.yml
+variables:
+  fontfamily: "palatino"
+  geometry:
+    margin=1.5in
+  linestretch: 1.1
+  header-includes: |
+    \usepackage{templates/docstyle}

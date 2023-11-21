@@ -1,0 +1,11 @@
+to: revealjs 
+self-contained: true
+embed-resources: true
+css:
+  - templates/presentation.css
+template:
+variables:
+  header-includes:
+  revealjs-url: https://cdn.jsdelivr.net/npm/reveal.js@4.4.0
+  theme: moon
+  navigationMode: linear

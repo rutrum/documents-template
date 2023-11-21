@@ -1,0 +1,12 @@
+.reveal p {
+    text-align: left;
+}
+.reveal ul {
+    display: block;
+}
+.reveal ol {
+    display: block;
+}
+.reveal img {
+    margin: 0 auto;
+}

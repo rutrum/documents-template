@@ -1,0 +1,16 @@
+\usepackage{ifthen}
+
+% Title
+\renewcommand{\maketitle}
+{
+    \begin{center}
+    \huge \@title \\
+    \ifthenelse{\equal{\@date}{}}
+        {}%
+        {\text{\Large \@date} \\}%
+    \ifthenelse{\equal{\@author}{}}
+        {}%
+        {\vspace{0.2cm}\Large \@author \\}%
+    \vspace{1cm}
+    \end{center}
+}
